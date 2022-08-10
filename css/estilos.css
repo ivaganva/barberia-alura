@@ -184,7 +184,7 @@ td, th{
     font-style: italic;
 }
 .utensilios{
-    width: calc(40% - (32px * 8));
+    width: 120px;
     border-radius: 5px;
     float: left;
     margin: 0 20px 20px 0;
