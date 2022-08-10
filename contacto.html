@@ -24,37 +24,37 @@
       </header>
 
       <main>
-        <!--Formulario de contacto-->>
+        <!--Formulario de contacto-->
         <form action="">
             <label for="nomre-apellido">Nombre y Apellidos</label>
-            <input type="text" id="nomre-apellido">
+            <input type="text" id="nomre-apellido" class="input-padron">
 
             <label for="correo-electronico">Correo electrónico</label>
-            <input type="text" id="correo-electronico">
+            <input type="text" id="correo-electronico" class="input-padron">
 
             <label for="telefono">Teléfono</label>
-            <input type="text" id="telefono">
+            <input type="text" id="telefono" class="input-padron">
 
             <!--Caja de texto del formulario-->
             <label for="mensaje">Mensaje</label>
-            <textarea name="" id="" cols="70" rows="10" itemid="mensaje"></textarea>
+            <textarea name="" id="" cols="70" rows="10" itemid="mensaje" class="input-padron"></textarea>
 
 
             <!--Campos del formulario con selección-->
             <div>
                 <p>Como le gustaria que le contactemos?</p>
 
-                <label for="radio-email">Email</label>
-                <input type="radio" name="contacto" value="email" id="radio-email">
+                <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
                 
-                <label for="radio-telefono">Teléfono</label>
-                <input type="radio" name="contacto" value="telefono" id="radio-telefono">
                 
-                <label for="radio-whatsapp">WhatsApp</label>
-                <input type="radio" name="contacto" value="email" id="radio-whatsapp">
+                <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+                
+                
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="email" id="radio-whatsapp">WhatsApp</label>
+                
             </div>
 
-            <label for=""><input type="checkbox">Le gustaria recibir novedades de la Barberia Alura?</label>
+            <label class="checkbox" for=""><input type="checkbox">Le gustaria recibir novedades de la Barberia Alura?</label>
             <input type="submit" value="Enviar formulario">
 
         </form>   
