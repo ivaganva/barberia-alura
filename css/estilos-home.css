@@ -1,0 +1,88 @@
+header{
+    background-color: #bbbbbb;
+    padding: 5px 0;
+}
+.logo_ppal{
+    height: 120px;
+}
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top:75px;
+    right: 0px;
+}
+nav li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+#banner{
+    width: 100%;
+}
+.banner{
+    padding-bottom: 20px;
+}
+.titulo_centralizado{
+    padding: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+.principal{
+    margin: 20px;
+    font-size: 20px;
+}
+.mision{
+    padding: 20px 0 20px 0;
+}
+.pmision{
+    font-weight: bold;
+}
+.diferenciales{
+    background: #ffffff;
+    padding: 20px;
+}
+.items{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.cat-diferencias li:hover{
+    color: #c78c19;
+}
+.cat-diferencias{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 15%;
+    margin-top: 154px;
+}
+
+.imagenDiferenciales{
+    width: 50%;
+}
+
+footer{
+    text-align: center;
+    background: url(/img/bg.jpg);
+    padding: 40px;
+}
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
