@@ -4,65 +4,100 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/estilos.css" /> 
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/estilos.css" />
     <link rel="icon" href="/img/logo-blanco.png" />
     <title>Barberia Alura</title>
   </head>
   <body>
     <header>
-        <div class="caja">
-          <h1><img src="/img/logo.png" alt="" class="logo_ppal" /></h1>
-          <nav>
-            <ul class="navegacion">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="productos.html">Productos</a></li>
-              <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-          </nav>
+      <div class="caja">
+        <h1><img src="/img/logo.png" alt="" class="logo_ppal" /></h1>
+        <nav>
+          <ul class="navegacion">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!--Formulario de contacto-->
+      <form action="">
+        <label for="nomre-apellido">Nombre y Apellidos</label>
+        <input type="text" id="nomre-apellido" class="input-padron" />
+
+        <label for="correo-electronico">Correo electrónico</label>
+        <input type="text" id="correo-electronico" class="input-padron" />
+
+        <label for="telefono">Teléfono</label>
+        <input type="text" id="telefono" class="input-padron" />
+
+        <!--Caja de texto del formulario-->
+        <label for="mensaje">Mensaje</label>
+        <textarea
+          name=""
+          id=""
+          cols="70"
+          rows="10"
+          itemid="mensaje"
+          class="input-padron"
+        ></textarea>
+
+        <!--Campos del formulario con selección-->
+        <div>
+          <p>Como le gustaria que le contactemos?</p>
+
+          <label for="radio-email"
+            ><input
+              type="radio"
+              name="contacto"
+              value="email"
+              id="radio-email"
+            />Email</label
+          >
+
+          <label for="radio-telefono"
+            ><input
+              type="radio"
+              name="contacto"
+              value="telefono"
+              id="radio-telefono"
+            />Teléfono</label
+          >
+
+          <label for="radio-whatsapp"
+            ><input
+              type="radio"
+              name="contacto"
+              value="email"
+              id="radio-whatsapp"
+            />WhatsApp</label
+          >
         </div>
-      </header>
+        <!--Cuadro de opciones para selección de horario de atención-->
+        <div>
+          <p>En que horario prefiere ser atendido?</p>
+          <select name="" id="">
+            <option value="">Mañana</option>
+            <option value="">Tarde</option>
+            <option value="">Noche</option>
+          </select>
+        </div>
 
-      <main>
-        <!--Formulario de contacto-->
-        <form action="">
-            <label for="nomre-apellido">Nombre y Apellidos</label>
-            <input type="text" id="nomre-apellido" class="input-padron">
+        <label class="checkbox" for=""
+          ><input type="checkbox" />Le gustaria recibir novedades de la Barberia
+          Alura?</label
+        >
+        <input type="submit" value="Enviar formulario" />
+      </form>
+    </main>
 
-            <label for="correo-electronico">Correo electrónico</label>
-            <input type="text" id="correo-electronico" class="input-padron">
-
-            <label for="telefono">Teléfono</label>
-            <input type="text" id="telefono" class="input-padron">
-
-            <!--Caja de texto del formulario-->
-            <label for="mensaje">Mensaje</label>
-            <textarea name="" id="" cols="70" rows="10" itemid="mensaje" class="input-padron"></textarea>
-
-
-            <!--Campos del formulario con selección-->
-            <div>
-                <p>Como le gustaria que le contactemos?</p>
-
-                <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
-                
-                
-                <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
-                
-                
-                <label for="radio-whatsapp"><input type="radio" name="contacto" value="email" id="radio-whatsapp">WhatsApp</label>
-                
-            </div>
-
-            <label class="checkbox" for=""><input type="checkbox">Le gustaria recibir novedades de la Barberia Alura?</label>
-            <input type="submit" value="Enviar formulario">
-
-        </form>   
-      </main>
-
-      <footer>
-        <img src="/img/logo-blanco.png" alt="">
-        <p class="copyright">&copy Copyright Barberia Alura - 2020</p>
+    <footer>
+      <img src="/img/logo-blanco.png" alt="" />
+      <p class="copyright">&copy Copyright Barberia Alura - 2020</p>
     </footer>
   </body>
 </html>
